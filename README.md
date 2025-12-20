@@ -44,19 +44,17 @@ There is no UI, database, or external dependency. Everything runs directly in No
 ## Project Structure
 
 ```
-src/
-  main-game.js
-
-  games/
-    game-1.js
-    game-2.js
-    game-3.js
-    game-4.js
-
-  models/
-    Adventurer.js
-    HealPotion.js
-    Monster.js
+src
+├── main-game.js
+├── games/
+│   ├── game-1.js
+│   ├── game-2.js
+│   ├── game-3.js
+│   └── game-4.js
+└── models/
+    ├── Adventurer.js
+    ├── HealPotion.js
+    └── Shield.js
 ```
 
 - `models/` contains reusable game entities
